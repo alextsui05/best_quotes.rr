@@ -18,3 +18,16 @@ Then go to the `best_quotes` directory and start it up
 ```
 rackup -p 3001
 ```
+
+# Changelog
+
+4.0.0
+
+- rulers 4.0.0 introduces dependency autoloading, so no explicit require needed
+  to use our controllers.
+
+3.0.0
+
+- rulers 3.0.0 implements simple routing. Using the convention of requests of
+  the form '/controller/action', we map requests to our QuotesController to be
+  handled.
