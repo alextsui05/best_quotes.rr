@@ -1,0 +1,16 @@
+127.0.0.1 - - [22/Feb/2017:23:42:51 -0800] "GET /quotes/exception HTTP/1.1" 500 42981 0.0080
+RuntimeError: It's a bad one!
+	/home/atsui/work/best_quotes.rr/app/controllers/quotes_controller.rb:8:in `exception'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rulers-0.2.0/lib/rulers.rb:13:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/tempfile_reaper.rb:15:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/lint.rb:49:in `_call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/lint.rb:37:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/show_exceptions.rb:23:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/common_logger.rb:33:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/chunked.rb:54:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/content_length.rb:15:in `call'
+	/home/atsui/.rvm/gems/ruby-2.2.3/gems/rack-2.0.1/lib/rack/handler/webrick.rb:86:in `service'
+	/home/atsui/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+	/home/atsui/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+	/home/atsui/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+127.0.0.1 - - [22/Feb/2017:23:43:16 -0800] "GET /quotes/exception HTTP/1.1" 500 49355 0.0051
