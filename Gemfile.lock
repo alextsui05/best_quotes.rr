@@ -1,7 +1,7 @@
 PATH
   remote: ../rulers.rr
   specs:
-    rulers (4.1.0)
+    rulers (4.2.0)
       erubis
       rack
 
