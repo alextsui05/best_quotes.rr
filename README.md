@@ -21,6 +21,10 @@ rackup -p 3001
 
 # Changelog
 
+5.0.0
+
+- rulers 5.0.0 introduces view rendering. Instance variables are automatically made accessible to the view. The view is loaded from the controller's named folder under app/views.
+
 4.0.0
 
 - rulers 4.0.0 introduces dependency autoloading, so no explicit require needed

@@ -1,7 +1,7 @@
 PATH
   remote: ../rulers.rr
   specs:
-    rulers (4.2.0)
+    rulers (5.0.0)
       erubis
       rack
 
@@ -15,7 +15,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rulers (~> 4)!
+  rulers (~> 5)!
 
 BUNDLED WITH
    1.14.4
