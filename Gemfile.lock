@@ -1,21 +1,23 @@
 PATH
   remote: ../rulers.rr
   specs:
-    rulers (5.0.0)
+    rulers (5.2.0)
       erubis
+      multi_json
       rack
 
 GEM
   remote: https://rubygems.org/
   specs:
     erubis (2.7.0)
+    multi_json (1.12.1)
     rack (2.0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  rulers (~> 5)!
+  rulers (~> 5.2)!
 
 BUNDLED WITH
    1.14.4
