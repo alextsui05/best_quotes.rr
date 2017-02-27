@@ -21,6 +21,8 @@ rackup -p 3001
 
 # Changelog
 
+- Use request params in find action
+
 6.0.0
 - Add quotes actions to make use of the FileModel in rulers 6.0.0.
 
