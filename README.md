@@ -23,6 +23,12 @@ rackup -p 3001
 
 - Use request params in find action
 
+8.0.0
+- Add SQLite model. See test migration and sqlite scripts for API demo
+
+7.0.0
+- Refactor to use Rack request/response
+
 6.0.0
 - Add quotes actions to make use of the FileModel in rulers 6.0.0.
 
