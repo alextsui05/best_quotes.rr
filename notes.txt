@@ -4,3 +4,14 @@ p 46. YourController is ~~not~~ missing constant WhateverHelper!
 
 p. 52. Did you know you can use Erb in the middle of your config/database.yml file?
 Nope.
+
+p 98.
+I think maybe the ORM chapter should be redone with proper unit testing fashion.
+
+- Have a separate test database
+- Perform the migration at the start
+- Run the individual tests and perform asserts on a clean slate
+
+At least write the tests in separate files or something so you can have all of
+them at a glance.
+
