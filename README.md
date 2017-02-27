@@ -21,6 +21,9 @@ rackup -p 3001
 
 # Changelog
 
+6.0.0
+- Add quotes actions to make use of the FileModel in rulers 6.0.0.
+
 5.0.0
 
 - rulers 5.0.0 introduces view rendering. Instance variables are automatically made accessible to the view. The view is loaded from the controller's named folder under app/views.

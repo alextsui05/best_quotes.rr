@@ -1,0 +1,6 @@
+p 44. Have we been introduced to bundle exec at this point?
+
+p 46. YourController is ~~not~~ missing constant WhateverHelper!
+
+p. 52. Did you know you can use Erb in the middle of your config/database.yml file?
+Nope.
